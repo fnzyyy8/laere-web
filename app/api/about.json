@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Planning",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sequi!"
+  },
+  {
+    "id": 2,
+    "title": "Designing",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sequi!"
+  },
+  {
+    "id": 3,
+    "title": "Developing",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sequi!"
+  },
+  {
+    "id": 4,
+    "title": "Checking",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sequi!"
+  },
+  {
+    "id": 5,
+    "title": "Deploving",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, sequi!"
+  }
+]
