@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 export default function Navbar() {
     return (
@@ -8,12 +9,10 @@ export default function Navbar() {
                 <a className='flex items-center justify-center text-3xl gap-3' href="/"><img src="/laere-logo.svg" alt="laere-logo" className='w-12' /> Laere.id</a>
                 <ul className=' flex'>
                     <a href="/" className='mx-6 hover:text-purple-500'><li>Home</li></a>
-                    <a href="/" className='mx-6 hover:text-purple-500'><li>About us</li></a>
-                    <a href="/" className='mx-6 hover:text-purple-500'><li>Corporate</li></a>
-                    <a href="/" className='mx-6 hover:text-purple-500'><li>UMKM</li></a>
-                    <a href="/" className='mx-6 hover:text-purple-500'><li>School</li></a>
+                    <a href="/" className='mx-6 hover:text-purple-500'><li>Products</li></a>
+                    <a href="/" className='mx-6 hover:text-purple-500'><li>Contacts</li></a>
                 </ul>
-                <button className='border-2 px-6 py-2 rounded-xl border-white hover:bg-slate-800'>Contact</button>
+                <button>Id<ArrowDropDownIcon /></button>
             </div>
         </nav>
     )
